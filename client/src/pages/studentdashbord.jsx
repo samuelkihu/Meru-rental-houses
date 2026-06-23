@@ -5,10 +5,10 @@ function Slideshow({ images, onPreview }) {
   return (
     <div style={{ position: "relative" }}>
       <img
-        src={`https://meru-rental-houses.onrender.com${images[current]}`}
+src={images[current]}   
         alt="house"
         style={{ width: "100%", height: "220px", objectFit: "cover", cursor: "pointer" }}
-        onClick={() => onPreview(`https://meru-rental-houses.onrender.com${images[current]}`)}
+onClick={() => onPreview(images[current])}
       />
       {images.length > 1 && (
         <>
