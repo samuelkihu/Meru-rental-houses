@@ -102,7 +102,7 @@ export default function StudentDashboard() {
         <h1 style={styles.title}>  AVAILABLE HOUSES</h1>
         <p style={styles.subtitle}>Find your perfect student accommodation with price of your choice 
          <span style={styles.span}>. You can contact landlords or caretakers directly through the contact details provided</span>  OR request for a house and the admin will contact you to finalize the deal.
-          Or you can also contact the admin directly through the email:<span style={styles.span}>kihusamuel986@gmail.com</span> or phone number:<span style={styles.span}>+254 768368729</span>.
+          Or you can also contact the admin directly through number:<span style={styles.span}>+254 768368729</span>.
         </p>
       </div>
 
@@ -163,7 +163,7 @@ export default function StudentDashboard() {
         <p style={styles.footerText}>© {new Date().getFullYear()} Student Housing Portal · All rights reserved</p>
         <p style={styles.footerSub}>
           For support, contact{" "}
-          <a href="mailto:kihusamuel986@gmail.com" style={styles.footerLink}>kihusamuel986@gmail.com or call +254 768368729</a>
+          call +254 768368729</a>
         </p>
       </footer>
     </div>
