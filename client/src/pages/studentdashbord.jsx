@@ -102,8 +102,7 @@ export default function StudentDashboard() {
         <h1 style={styles.title}>  AVAILABLE HOUSES</h1>
         <p style={styles.subtitle}>Find your perfect student accommodation with price of your choice 
          <span style={styles.span}>. You can contact landlords or caretakers directly through the contact details provided</span>  OR request for a house and the admin will contact you to finalize the deal.
-          Or you can also contact the admin directly through number:<span style={styles.span}>+254 768368729</span>.
-        </p>
+          Or you can also contact the admin directly through the email:<span style={styles.span}>merurental@gmail.com</span> or phone number:<span style={styles.span}>+254 768368729</span>.        </p>
       </div>
 
       {message && <div style={styles.success}>{message}</div>}
