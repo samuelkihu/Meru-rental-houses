@@ -57,7 +57,8 @@ router.get("/", async (req, res) => {
     }
     res.json(houses);
   } catch (err) {
-    res.status(500).json({ message: "Server error." });
+    console.log("Houses error:", err);
+    res.status(500).json({ message: err.message });
   }
 });
 
