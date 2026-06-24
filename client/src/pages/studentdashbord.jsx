@@ -101,8 +101,9 @@ export default function StudentDashboard() {
       <div style={styles.header}>
         <h1 style={styles.title}>  AVAILABLE HOUSES</h1>
         <p style={styles.subtitle}>Find your perfect student accommodation with price of your choice 
-         <span style={styles.span}>. You can contact landlords or caretakers directly through the contact details provided</span>  OR request for a house and the admin will contact you to finalize the deal.
-          Or you can also contact the admin directly through the email:<span style={styles.span}>merurental@gmail.com</span> or phone number:<span style={styles.span}>+254 768368729</span>.        </p>
+         <span style={styles.span}>. You can contact landlords or caretakers directly through the contact details provided </span>  OR request for a house and the admin will contact you to finalize the deal.
+          Or you can also contact the admin directly through the email:<span style={styles.span}> merurental@gmail.com </span> or phone number: <span style={styles.span}>+254 768368729 </span>.       
+        </p>
       </div>
 
       {message && <div style={styles.success}>{message}</div>}
@@ -162,7 +163,7 @@ export default function StudentDashboard() {
         <p style={styles.footerText}>© {new Date().getFullYear()} Student Housing Portal · All rights reserved</p>
         <p style={styles.footerSub}>
           For support, contact{" "}
-          call +254 768368729</a>
+    <a href="mailto:kihusamuel986@gmail.com" style={styles.footerLink}>skihu3010@gmail.com or call +254 768368729</a>     
         </p>
       </footer>
     </div>
